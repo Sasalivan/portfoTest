@@ -441,16 +441,26 @@ body::-webkit-scrollbar {
     height: auto;
     display: block;
 }
-
+#proj h5{
+    text-align: left;
+    font-family: "Coyote";
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    line-height: 2em; 
+    color: #a54a69;
+}
 #proj p{
     text-align: left;
     font-family: "Sun";
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     line-height: 2em;
     width: 70%;
+    padding-top: 3%;
 }
 /*PROJETS RESPONSIVE*/
 @media (max-width: 850px) {
@@ -491,7 +501,6 @@ body::-webkit-scrollbar {
     writing-mode: vertical-rl;
     text-orientation: upright;
     margin-left: 8%;
-    margin-right: 10%;
     text-align: center;
 }
 #parco .Title h3{
@@ -574,6 +583,11 @@ body::-webkit-scrollbar {
     font-weight: 600;
     font-family: "Cartoon Toy Turbo";
 }
+  #parco .row section .details .annee{
+    font-size: 1.2rem;
+    font-family: "Coyote";
+    font-weight: 600;
+  }
   #parco .row section p{
     margin: 10px 0 17px 0;
     text-align: left;
@@ -630,7 +644,6 @@ body::-webkit-scrollbar {
     writing-mode: vertical-rl;
     text-orientation: upright;
     margin-left: 8%;
-    margin-right: 10%;
     text-align: center;
 }
 #contac .Title h3{
@@ -670,7 +683,6 @@ body::-webkit-scrollbar {
     height: 300px;
     width: 300px;
 }
-
 #contac img{
     max-width: 50%;
 }
@@ -723,8 +735,38 @@ body::-webkit-scrollbar {
 }
 
 /*FOOTER*/
-/*FOOTER RESPONSIVE*/
+#footer{
+    bottom: 0;
+    height: 40%;
+    background-color: white;
+    display: block;
+}
+#footer p{
+    width: 100%;
+    text-align: center;
+    font-family: "coyote";
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.5rem;
+    color: #f59b7a;
+}
+#footer img{
+    width: 11%;
+}
 
+/*FOOTER RESPONSIVE*/
+@media(max-width: 850px){
+    #footer{
+        height: 16%;
+    }
+
+    #footer p{
+        font-size: 1.2rem;
+    }
+    #footer img{
+        width: 30%;
+    }
+}
 
 
 
