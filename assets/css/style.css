@@ -240,12 +240,12 @@ body::-webkit-scrollbar {
     border: 5px solid ;
     border-radius: 30px;
     border-color: rgb(245, 155, 122);
-    padding: 5%;  
+    padding: 3%;  
 }
 #presenta .Text p{
     text-align: center;
     font-family: "Sun";
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -533,6 +533,7 @@ body::-webkit-scrollbar {
     width: calc(45% - 4px);
     padding: 20px;
     position: relative;
+    box-shadow: 8px 8px 2px 1px #FCB54B;
 }
   /*fleche pour bulle*/
   #parco .bulleFull .row section::before{
@@ -700,6 +701,16 @@ body::-webkit-scrollbar {
     text-align: center;
     font-family: "Sun";
     font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+}
+#contac .row section h6{
+    margin: 10px 0 17px 0;
+    text-align: center;
+    font-family: "Sun";
+    font-size: 0.5rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
